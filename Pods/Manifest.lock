@@ -1,0 +1,37 @@
+PODS:
+  - GoogleMaps (3.0.2):
+    - GoogleMaps/Maps (= 3.0.2)
+  - GoogleMaps/Base (3.0.2)
+  - GoogleMaps/Maps (3.0.2):
+    - GoogleMaps/Base
+  - GooglePlaces (3.0.2):
+    - GoogleMaps/Base (= 3.0.2)
+  - IQKeyboardManagerSwift (6.2.0)
+  - SKCountryPicker (1.2.0)
+  - SkyFloatingLabelTextField (3.6.0)
+
+DEPENDENCIES:
+  - GoogleMaps (~> 3.0)
+  - GooglePlaces
+  - IQKeyboardManagerSwift
+  - SKCountryPicker
+  - SkyFloatingLabelTextField (~> 3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleMaps
+    - GooglePlaces
+    - IQKeyboardManagerSwift
+    - SKCountryPicker
+    - SkyFloatingLabelTextField
+
+SPEC CHECKSUMS:
+  GoogleMaps: 941cd655e009b4d8e42df19a3d749bc3fccec973
+  GooglePlaces: c086e0055dc5f0177d7c9d65fc77a1734f9a4825
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  SKCountryPicker: f0087598e342ee70a087ab334a28ba9ee37f1df2
+  SkyFloatingLabelTextField: 38164979b79512f9ff9288ad8acfc4bbf5d843e3
+
+PODFILE CHECKSUM: 66ad3d235662d9e6ef6aa97a1bbdddfef13abff8
+
+COCOAPODS: 1.5.3

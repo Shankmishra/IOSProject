@@ -8,7 +8,12 @@
 
 import UIKit
 import CoreData
-
+import SkyFloatingLabelTextField
+import IQKeyboardManagerSwift
+import SKCountryPicker
+import GoogleMaps
+import GooglePlaces
+import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        IQKeyboardManager.shared.enable = true
+     GMSServices.provideAPIKey("AIzaSyB_1pREL8At6xZ2r2MtxBkxRQ9q1mqvhQ4")
+        GMSPlacesClient.provideAPIKey("AIzaSyB_1pREL8At6xZ2r2MtxBkxRQ9q1mqvhQ4")
         // Override point for customization after application launch.
         return true
     }
