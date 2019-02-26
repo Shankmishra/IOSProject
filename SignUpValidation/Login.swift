@@ -10,7 +10,27 @@ class Login: UIViewController {
     let imageView2 = UIImageView()
     var profileList: [NSManagedObject] = []
     
+ 
+    
+    
+    
+    
+    
     //Action on Login Button
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     @IBAction func LoginButton(_ sender: Any) {
         fetchNotes()
@@ -21,6 +41,22 @@ class Login: UIViewController {
             self.present(alert, animated: true, completion: nil)
             return
         }
+     
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         if profileList == []
         {
             let alert = UIAlertController(title: "Status:", message: "Wrong Email Id", preferredStyle: UIAlertController.Style.alert)
